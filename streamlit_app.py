@@ -3,12 +3,7 @@ import requests
 import base64
 import re
 
-# Configuración de Azure
-organization = 'help4its'
-project = 'ValidacionesQA'
 
-# Token de acceso personal a Azure DevOps (NO DEBE estar expuesto en producción)
-token = '1HBARQvxuk4VMkY5xcRL47md9m6tOBqlcgG2pJxMCNDFdPIXBVNXJQQJ99BDACAAAAAAAAAAAAASAZDO3pg4'
 
 # Cabecera con autenticación en base64 para llamadas a la API de Azure
 headers = {
